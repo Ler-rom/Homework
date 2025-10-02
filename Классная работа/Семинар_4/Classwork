@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,10)
+y = x**2
+plt.figure(figsize=(10,6),dpi=100)
+plt.plot(x,x**2,'g','--')
+plt.title("Grasp")
+plt.xlabel('Sheee')
+plt.ylabel('cocal?')
+plt.grid #Создание сетки (если есть насечки, то по ним)
+plt.savefig('mygraph.png',dpi=400)
+plt.show()
